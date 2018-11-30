@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption:400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/massage_types.css">
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<link rel="stylesheet" href="navigation.html">
+	<link rel="stylesheet" href="css/navigation.css">
+	<script>
+		
+function soundClick() {
+  var audio = new Audio(); // Создаём новый элемент Audio
+  audio.src = 'leto.mp3'; // Указываем путь к звуку "клика"
+  audio.autoplay = true; // Автоматически запускаем
+}
+	</script>
+	
+	<title>Massage Types</title>
+</head>
+<body> 
+	<div class="container-fluid">
+			<div class="navbar navbar-default">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-a">
+						<span class="sr-only">Открыть навигацию</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand"><img src="images/massage_logo.png" alt=""></a>
+					<p class="navbar-text navbar-left"><a href="#" class="text-color"><img src="images/location.png">Минск, Кнорина 25</a><a href="#" class="text-color"><img src="images/phone.png">80298485589</a></p>
+				</div>
+				
+
+				<div class="collapse navbar-collapse" id="navbar-collapse-a">
+				    <ul class="nav navbar-nav navbar-right">
+				      <li><a href="#" class="btn-7"><span>Главная</span></a></li>
+				      <li><a href="massage_types.html" class="btn-7"><span>Виды массажа</span></a></li>
+				      <li><a href="gallery.html" class="btn-7"><span>Галерея</span></a></li>
+				      <li><a href="contacts.html" class="btn-7"><span>Контакты</span></a></li>
+				    </ul>
+				</div>
+		</div>
+
+	</div>
+	
+  <div class="col">
+			<div class="panel-group" id="accordion">
+				<div class="panel">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#child"><img src="images/baby.png" alt="">Детский</a>
+							<a href="#collapse-1" data-parent="#accordion" data-toggle="collapse"><span class="caret"></span></a>
+						</h4>
+					</div>
+					<div class="panel-collapse collapse text-center" id="collapse-1">
+						<div class="panel-body">
+							<a href="#">Спина</a>
+						</div>
+						<div class="panel-body">
+							<a href="#">Руки</a>
+						</div>
+						<div class="panel-body">
+							<a href="#child_legs">Ноги</a>
+						</div>
+					</div>
+
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#health"><img src="images/heart.png" alt="">Оздоровительный</a>
+							<a href="#collapse-2" data-parent="#accordion" data-toggle="collapse"><span class="caret"></span></a>
+						</h4>
+					</div>
+					<div class="panel-collapse collapse text-center" id="collapse-2">
+						<div class="panel-body">
+							<a href="#">ыыыы</a>
+						</div>
+					</div>
+
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#face_massage"><img src="images/face.png" alt="">Массаж лица</a>
+							<a href="#collapse-3" data-parent="#accordion" data-toggle="collapse"><span class="caret"></span></a>
+						</h4>
+					</div>
+					<div class="panel-collapse collapse text-center" id="collapse-3">
+						<div class="panel-body">
+							<a href="#">ыыыы</a>
+						</div>
+					</div>
+
+
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#anticellulitis"><img src="images/legs.png" alt="">Антицеллюлитный</a>
+							<a href="#collapse-4" data-parent="#accordion" data-toggle="collapse"><span class="caret"></span></a>
+						</h4>
+					</div>
+					<div class="panel-collapse collapse text-center" id="collapse-4">
+						<div class="panel-body">
+							<a href="#">ыыыы</a>
+						</div>
+					</div>
+
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#honey"><img src="images/honey.png" alt="">На меду</a>
+							<a href="#collapse-5" data-parent="#accordion" data-toggle="collapse"><span class="caret"></span></a>
+						</h4>
+					</div>
+					<div class="panel-collapse collapse text-center" id="collapse-5">
+						<div class="panel-body">
+							<a href="#">ыыыы</a>
+						</div>
+					</div>
+
+					
+
+
+				</div>
+			</div>
+<audio id="player" src="leto.mp3" autoplay="autoplay"></audio>
+		<div class="sound">
+			<i onclick="soundClick()"></i>
+			<i onclick="document.getElementById('player').play()" class="fas fa-play-circle"></i>
+			<i onclick="document.getElementById('player').pause()" class="fas fa-pause-circle"></i>
+		</div>
+		</div>
+
+					
+	<div class="content_field">
+		<div class="content1">
+			<div class="massage">
+				<div id="child" class="block">
+					<img src="images/massage_baby.png">
+					<h1>Детский</h1>
+					<p>Длительность 25-30 мин.(Комплексный)</p>
+					<div class="price">20p</div>
+
+				</div>
+			<p>Массаж для детей всех возрастов в сочетании с физическими упражнениями и закаливанием — неотъемлемая часть физического воспитания. Применяется, как один из видов специализированной медицинской помощи, а также, как средство оздоровления и укрепления организма и иммунитета.</p>
+			<p>
+			Массаж способствует правильному физическому развитию детского организма, улучшению тургора кожи, нормализации функции желудочно-кишечного тракта; благоприятно влияет на сердечно-сосудистую, дыхательную ,опорно — двигательную , мышечную (нормализует тонус) и нервную системы ребенка, у возбудимых нормализует поведение и сон. Улучшает обменные процессы, оказывает положительное воздействие на интеллектуальное и физическое развитие ребенка, а также способствует раннему развитию речи, является профилактикой многих заболеваний.</p>
+			<p>
+			Время и техника массажа зависит от возраста ребенка и целей, которые необходимо достигнуть. В каждом отдельном случае специалист проконсультирует вас и подберет необходимый вид массажа и комплекс упражнений для вашего малыша.</p>
+
+<button type="button" class="poster">
+	Детский массаж ног 
+	<div class="information" >
+		<div class="blue-block arrow"></div>
+		<img src="images/baby_legs.png" class="width" alt="">
+		<h4>Детский массаж ног</h4>
+		<p>Длительность 25-30 мин.</p>
+		<div class="little-price">10p</div>
+
+	</div>
+</button>
+<p id="child_legs"> – процедура не только очень приятная, но и чрезвычайно полезная. На ногах располагается большое количество активных точек, воздействуя на которые мы благотворно влияем на весь детский организм в целом.</p>
+<p>
+При помощи массажа детских стоп, мы оказываем невероятную помощь малышу в умении правильно стоять и ходить. Также при помощи несложных упражнений можно избавить ребенка от возможных проблем с опорно-двигательным аппаратом в будущем.</p>
+			
+		</div>
+		<div class="line"></div>
+
+
+		<div class="massage">
+				<div id="health" class="block">
+					<img src="images/health_massage.png">
+					<h1>Оздоровительный</h1>
+					<p>Длительность 35-40 мин.</p>
+					<div class="price">35p</div>
+				</div>
+			<p>Оздоровительный (общий) массаж является активным средством укрепления здоровья, сохранения нормальной деятельности организма, предупреждения заболеваний. Массаж применяется чаще в форме классического  массажа, иногда  в сочетании с рефлекторно-сегментарным, точечным, восточным и другими методиками.</p>
+			<p>
+			Общий массаж и оказываемый эффект: снимается мышечное напряжение, улучшается эластичность мышц, устраняются боли и спазмы, нормализуется деятельность сальных и потовых желез, выводятся токсины, происходит очищение от отмерших клеток, улучшается работоспособность, нормализуется давление, обменные процессы и деятельность нервной системы, повышается тонус организма, снижаются отеки, улучшается сон, нормализуется половая функция.</p>
+			<p>
+			Во время сеанса снимаются симптомы усталости, улучшается функционирование всех систем  организма, нормализуется психоэмоциональное состояние. Для должного терапевтического эффекта достаточно 10-15 процедур, длительность  процедуры зависит от индивидуальных особенностей.</p>
+			
+		</div>
+		<div class="line"></div>
+
+
+		<div class="massage">
+				<div id="face_massage" class="block"><img src="images/face_massage1.png">
+					<h1>Массаж лица</h1>
+					<p>Длительность 20-25 мин.</p>
+					<div class="price">25p</div>
+
+				</div>
+			<p>Почему важен массаж шеи и области декольте? Не все знают, что от состояние мышц шеи во многом зависит и красота нашего лица. Когда нарушается приток крови – клетки нашей кожи получают меньше питательных веществ и кислорода, и в результате, кожа быстрее стареет.Массаж не случайно называют пассивной гимнастикой.</p>
+			<p>
+			С помощью массажа лица, шеи и декольте можно расслабить напряженные мышцы и привести в тонус ослабленные. В результате подтянется овал лица, разгладятся или уменьшатся складки и морщины.</p>
+			<p>
+			Кроме этого, во время массажа улучшается кровообращение – повышает приток артериальной крови и клетки кожи получают больше питательных веществ и кислорода. В результате улучшается цвет лица, тургор кожи, а процессы старения замедляются. Улучшая отток венозной крови и лимфы, массаж лица способствует устранению отеков и оказывает лифтинг-эффект.</p>
+
+			<p>Массаж лица можно делать в любом возрасте. Но до 25 лет массаж обычно делается при наличии показаний. Например, если имеются отёки или нервное перенапряжение. В 25-30 лет массаж можно делать небольшим курсом для профилактики старения. А с 30 лет желательно уже регулярно включать массаж в свой антивозрастной уход;чтобы добиться стойкого результата нужно пройти курс 10-15 процедур, а в дальнейшем желательно периодически делать поддерживающие сеансы массажа. Или повторить курс через несколько месяцев.</p>
+			
+		</div>
+		<div class="line"></div>
+
+
+
+	<div class="massage">
+				<div id="anticellulitis" class="block"><img src="images/anticellulitis.png">
+					<h1>Антицеллюлитный</h1>
+					<p>Длительность 40-45 мин.</p>
+					<div class="price">45p</div>
+
+				</div>
+			<p>Большинство женщин наивно считают, что антицеллюлитный массаж – мануальная процедура, при которой специалист создает более сильное и интенсивное давление на кожные покровы проблемных мест.</p>
+			<p>
+			На самом деле, такой массаж — комплекс эффективных мануальных процедур, создающих воздействие на жировые отложения в подкожных слоях.</p>
+			<p>
+			Кроме этого, во время массажа улучшается кровообращение – повышает приток артериальной крови и клетки кожи получают больше питательных веществ и кислорода. В результате улучшается цвет лица, тургор кожи, а процессы старения замедляются. Улучшая отток венозной крови и лимфы, массаж лица способствует устранению отеков и оказывает лифтинг-эффект.</p>
+
+			<p>При антицеллюлитном массаже происходит активизация обменных процессов в тканях, в следствие чего в время процедуры может повыситься температура на обрабатываемых частях тела. Также растирание и разминание данных «проблемных зон» приводит к разогреву мышц, повышению циркуляции крови, благодаря чему жировая клетчатка избавляется от токсинов и наполняется кислородом.</p>
+
+			<p>При механическом воздействии подкожные жировые «залежи» уменьшаются в объеме, а покраснения кожи, оставшиеся после процедуры, быстро проходят.</p>
+			
+		</div>
+		<div class="line"></div>
+
+
+		<div class="massage">
+				<div id="honey" class="block"><img src="images/honey_massage.png">
+					<h1>Массаж на меду</h1>
+					<p>Длительность 30-40 мин.</p>
+					<div class="price">50p</div>
+
+				</div>
+			<p>Массаж с медом является крайне эффективной оздоровительной процедурой, которая известна еще с древности. Он был распространен в Китае, Индии, активно применялся для лечения многих болезней в Тибете, позволял сохранить молодость и здоровье на Руси. Не снизилась популярность такой массажной техники и сегодня.</p>
+			<p>
+			В процессе данной процедуры польза от массажной техники значительно усиливается и дополняется пользой витаминов и микроэлементов, содержащихся в меде. Пчелиный продукт со всем комплексом полезных веществ глубоко проникает в кожу, кровь, мышцы, внутренние органы, напитывая их и приводя в тонус. В результате эффект от медового массажа просто колоссален. </p>
+
+			<p>Массаж на меду прекрасно подтягивает кожу и даже разглаживает мелкие морщинки массаж лица медом, который не занимает много времени и его очень легко выполнить в домашних условиях. А также существует еще несколько разновидностей полезного оздоровительного медового массажа.</p>
+
+			<p>
+			Что характерно, еще в процессе производства лакомства пчелы вырабатывают особые ферменты, которые перерабатывают полезные вещества в более простую для усваивания форму. В результате мед для массажа напрямую проникает в кожу и практически весь его состав идет на пользу организма.</p>			
+		</div>
+	</div>
+</div>
+
+
+ <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap/bootstrap.js"></script>
+
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body> 	
+
+</html>

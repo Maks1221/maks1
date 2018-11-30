@@ -1,0 +1,258 @@
+body{
+	min-width: 400px;
+}	
+
+@media all and (max-width: 860px ){
+
+	div.col{
+		position: relative ;
+		top: -20px;
+		left:0 ;
+		width: 100%;
+		margin: 0 ;
+		text-align: center;
+	}
+
+	div.panel{
+		border-radius: 0 !important;
+	}
+
+	div.content1{
+		float: none;
+		position: absolute ;
+		margin: 0 0 0 0;
+		box-shadow: 0 0 15px lightgray;
+		width: 90%;
+	}
+
+	.block{
+		display: block;
+		text-align: center;
+		padding-bottom: 40px !important;
+	}
+
+	div.block img{
+		float: none;
+		margin: 15px auto;
+
+	}
+
+	div.information{
+		width: 250px;
+	}
+
+	div.information p{
+		font: 14px Arial;
+	}
+
+	div.information h4{
+		font: bold 14px Arial;
+	}
+
+	div.massage .width{
+		width: 100px;
+		height: 100px;
+		margin-right: 15px;
+	}
+
+	div.little-price{
+		font: 14px Arial !important;
+	}
+}	
+
+#header{
+	height: 70px;
+	background:#03E8F8;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.col{
+	position: fixed;
+	left: 65.4%;
+	margin: 25px 0 0 20px;
+}
+
+
+.panel{
+	border-radius: 20% 0 !important;
+	background: #CADABB;
+	box-shadow: 0 0 10px black;
+	overflow: hidden;
+	
+}
+
+.panel-title{	
+	padding: 0 10px;
+	font: 16px Arial !important;
+}
+
+.panel-title a img{
+	width: 25px;
+	height: 25px;
+	margin: 0 5px 0 0;
+}
+
+.panel-body{
+	background: #B9C4AE;
+	border-top:0 solid transparent !important;
+}
+
+
+a{
+	text-decoration: none !important;
+}
+
+a:visited{
+	color: black !important;
+}
+
+a:hover{
+	text-decoration: none !important;
+}
+
+.poster{
+	position: relative;
+	margin-left: 10px;
+	line-height: 20px;
+	font: 18px 'Neucha', cursive;
+	float: left;
+	background: rgba(255,100,0,0.4);
+	outline: none;
+}
+
+.massage .width{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-radius: 50%;
+	border: none;
+	padding: 0;
+	margin: 10px 0 10px 10px;
+}
+
+.information{
+	display: none;
+    background: -webkit-radial-gradient(circle farthest-corner at 250px 0px, blue, #FFFF5F);
+    background: -o-radial-gradient(circle farthest-corner at 250px 0px, blue, #FFFF5F);
+    background: radial-gradient(circle farthest-corner at 250px 0px, white, #FFFF5F);;
+	min-height: 150px;
+	width: 350px;
+}
+
+div.blue-block{
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	position: absolute;
+	bottom: -27px;
+	left: 15%;
+}
+
+div.arrow{
+	border-bottom: 0;
+	border-top-color: green;
+}
+
+.poster:focus .information{
+	display: block;
+	position: absolute;
+	top: -207px;
+	border: 7px solid transparent;
+	border-image: 7 repeating-linear-gradient(45deg, #FFA800 0px, #FFA800 10px, lightgreen 10px, lightgreen 20px);
+}
+
+.content_field{
+	margin: 20px;
+	border: 3px solid transparent;
+}
+
+.content1{
+	float: left;
+	margin: 20px;
+	box-shadow: 0 0 15px lightgray;
+	width: 65%;
+}
+
+.massage{
+	margin-bottom: 60px;
+}
+
+.massage p{
+	margin: 10px;
+	line-height: 20px;
+	font: 18px 'Neucha', cursive;
+}
+
+.block{
+	padding-bottom: 80px;
+}
+
+.massage img{
+	width: 200px;
+	height: 200px;
+	margin: 15px 60px 15px 15px;
+	float: left;
+	border-radius: 50%;
+	border: 4px dashed lightgreen;
+}
+
+.block h1{
+	font: 30px 'PT Serif Caption', serif;
+	margin: 10px 0 25px 0;
+}
+
+.price{
+	border-top-left-radius: 40px 40px;
+	border-bottom-right-radius: 40px 40px;
+	border: 7px solid transparent;
+	display: inline;
+	padding: 10px;
+	text-align: center;
+	background: green;
+	color: white;
+	font: 22px Arial;
+}
+
+div.little-price{
+	border-top-left-radius: 40px 40px;
+	border-bottom-right-radius: 40px 40px;
+	border: 7px solid transparent;
+	display: inline;
+	padding: 4px;
+	text-align: center;
+	background: green;
+	color: white;
+	font: 22px Arial;
+}
+
+.block p{
+	margin-bottom:40px;
+}
+
+.line{
+	width: 80%;
+	height: 2px;
+	background: linear-gradient(45deg,#DA82FF,#00B4FF);
+	margin: auto; 
+}
+
+.online{
+	position: fixed;
+	top: 200px;
+	left: -16px;
+}
+
+div.sound i{
+	color: Tomato  !important;
+	font-size: 3em !important;
+	margin: 20px 5px 20px 20px;
+	cursor: pointer;
+}
+
+div.sound i:active{
+	transform:scale(0.8);
+}
+

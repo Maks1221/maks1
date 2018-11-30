@@ -1,0 +1,119 @@
+body{
+	padding:0;
+	background-color: #FBFCF8;
+}
+
+@media all and (max-width: 860px ){
+
+	div.map{
+		width: 100%;
+	}
+
+	div#slider-wrap{
+		margin: 0 auto;
+		float: none;
+	}
+}
+
+.map {
+	width: 60%;
+	height: 330px;
+}
+
+.h1{
+	font: 50px 'Lobster', cursive;
+	padding:20px;
+}
+
+h1{
+	text-shadow: 1px 1px 0 white, -1px -1px 0 white, 2px 2px 0 black, -2px -2px 0 black, 3px 3px 0 white;
+	color:#510054;
+}
+
+.block{
+	float: left;
+	width: 260px;
+	height: 300px;
+	text-align: center;
+	transition: .5s linear;
+}
+
+.block img{
+	margin: 20px;
+}
+
+.block:hover{
+	box-shadow: 300px 0 0 0 rgba(255,255,25,0.9) inset;
+}
+
+.block p{
+	margin-bottom: 10px;
+	font: italic bold 13px Arial;
+}
+
+#slider-wrap{ /* Оболочка слайдера и кнопок */
+	margin: 0 50px;
+	width:260px; 
+	float: left;
+}
+
+#slider{ /* Оболочка слайдера */
+	width:260px;
+	height:300px;
+	overflow: hidden;
+	border:#eee solid 10px;
+	position:relative;
+}
+
+.slide{ /* Слайд */
+	width:260px;
+	height:300px;
+}
+
+.sli-links{ /* Кнопки смены слайдов */
+	margin-top:10px;
+	text-align:center;
+}
+
+.sli-links .control-slide{
+	margin:2px;
+	display:inline-block;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/radioBg.png) center bottom no-repeat;
+}
+
+.sli-links .control-slide:hover{
+	cursor:pointer;
+	background-position:center center;
+}
+
+.sli-links .control-slide.active{
+	background-position:center top;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: rgba(3,232,248,0.3);
+	height: 40px;
+	padding: 0 40px;
+
+}
+
+.footer img{
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	
+}
+
+.footer span{
+	margin-left: 40px;
+}
+
+
+
